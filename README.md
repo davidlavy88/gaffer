@@ -26,7 +26,7 @@ Gaffer is officially supported and tested on **Linux** (CentOS 7) and **macOS** 
 
 [![CI](https://github.com/GafferHQ/gaffer/workflows/CI/badge.svg)](https://github.com/GafferHQ/gaffer/actions?query=workflow%3ACI)
 
-Gaffer targets the [VFX Reference Platform](https://vfxplatform.com). We are currently on **CY2018**. Aside from general platform development packages, we specifically require the following tools that may not be installed by default on your system. Without these, you will not be able to build Gaffer.
+Gaffer targets the [VFX Reference Platform](https://vfxplatform.com). We are currently on **CY2021**. Aside from general platform development packages, we specifically require the following tools that may not be installed by default on your system. Without these, you will not be able to build Gaffer.
 
 > **Note:** From time to time, this list may change. For a complete, accurate, and up-to-date method of installing the prerequisites on CentOS, refer to the [Docker setup](https://github.com/GafferHQ/build/blob/master/Dockerfile) we use for building automatic releases.
 
@@ -40,9 +40,10 @@ Gaffer targets the [VFX Reference Platform](https://vfxplatform.com). We are cur
 
 Package Name | Version
 ------------ |:--------------:
-[`gcc`](https://gcc.gnu.org/index.html) | 6.3.1
-[`scons`](http://www.scons.org) |
-[`inkscape`](http://inkscape.org) |
+[`gcc`](https://gcc.gnu.org/index.html) | 9.3.1
+[`python`](http://inkscape.org) | 3.8.11
+[`scons`](http://www.scons.org) | 3.1.2
+[`inkscape`](http://inkscape.org) | 0.92.2
 
 
 #### Documentation build requirements ####
@@ -51,7 +52,7 @@ Package Name | Version
 
 Package Name | Minimum Version
 ------------ |:--------------:
-[`sphinx`](http://www.sphinx-doc.org/) | 1.8
+[`sphinx`](http://www.sphinx-doc.org/) | 4.3.1
 
 Python Module | Required version
 ------------- |:---------------:
